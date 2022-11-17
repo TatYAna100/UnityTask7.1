@@ -30,11 +30,11 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (_currentWeapon.Label.Contains("Пистолет"))
+        if (_currentWeapon.Label.Contains("РџРёСЃС‚РѕР»РµС‚"))
         {
             _animator.SetTrigger(_idle);
         }
-        else if (_currentWeapon.Label.Contains("Бластер"))
+        else if (_currentWeapon.Label.Contains("Р‘Р»Р°СЃС‚РµСЂ"))
         {
             _animator.SetTrigger(_idleBlaster);
         }
